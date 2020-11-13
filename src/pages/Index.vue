@@ -1,11 +1,18 @@
 <template>
-  <Layout> </Layout>
+  <Layout>
+    <Hero />
+    <!-- <Projects /> -->
+  </Layout>
 </template>
 
 <script>
+import Hero from "~/components/Hero.vue";
 export default {
   metaInfo: {
     title: "Hi, I'm Anita Ngo!",
+  },
+  components: {
+    Hero,
   },
 };
 </script>

@@ -47,20 +47,6 @@
 </template>
 
 <style lang="scss">
-.wrapper {
-  margin: 0 auto;
-  max-width: 375px;
-  width: 100%;
-
-  @media screen and (min-width: 1024px) {
-    max-width: 960px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    max-width: 1024px;
-  }
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -68,6 +54,7 @@ header {
   background: #fafafa;
   width: 100%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Nunito", sans-serif;
 }
 
 .navbar,
@@ -97,6 +84,7 @@ nav ul {
     transition: 0.3s;
 
     &:hover {
+      color: #ad0000;
       border-bottom: 10px solid #ad0000;
     }
   }
